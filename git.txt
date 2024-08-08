@@ -1,0 +1,56 @@
+***************************** GIT NOTES ************************************************
+
+
+
+HEAD in git is a pointer which refers to the current branch. 
+
+HEAD points to the current branch.
+
+.git - when you initialize the repo .git folder will be created.
+
+
+git init - Is the first command we will be using to initialize the repo
+
+git log - displays all the commit information
+
+git status - give the information which branch u r in and any pending commits in the branch.
+
+git add - the phase before commit
+
+git commit -m "messages"  - commit the changes
+git commit -a -m "messages" - committing the changes without the add command.
+
+git branch -d <branch_name> - To delete the branch (Note:- you should not be in the branch inorder to delete it)
+
+
+
+git branch - list the branches
+git branch <branch_name> - creates the branch
+
+git switch <branch_name> - Switches the branch.
+git switch -c <branch_name> - It is create and switch the branch.
+
+git checkout <branch_name>- It will used to switch branch
+git checkout -b <branch_name>-It is create and switch the branch.
+
+
+git branch -m <new_name> - It is used to rename the branch.
+
+
+git branch -d <branch_name> - It is used to delete the branch (Note:- You should not be in that branch in order to delete it)
+
+
+
+git remote show origin  - It is used to show the remote origin.
+
+
+
+
+
+INORER TO MERGE THE BRANCHES THERE ARE TWO STEPS
+
+FIRST switch to or checkout to the branch you need to MERGE (Receiving branch) CMD 1 : git switch <branch_name>
+
+SECOND using git merge command merge the changes from specific branch into current branch CMD 2 : git merge <branch_name>
+
+

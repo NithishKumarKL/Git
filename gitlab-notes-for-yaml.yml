@@ -1,0 +1,20 @@
+#yaml is a key value pair the allowed data types are String, Number, List, Object.
+# You can have object inside an object here person is an obj contains friends object.
+
+person:
+  name: Nithish   # String
+  age: 18         # number
+  IsIndian: true  # boolean
+  stuff:          # list
+    - mobile
+    - laptop
+    - watch
+  favoritefood: [Dosa, Puri, Rasam] #List
+  friends:        #object
+    -name: Lakshmi
+     age: 22
+    -name: Nirmal
+     age: 24
+  
+
+  # You can save your secert key and access key in the variable in ci-cd option in gitlab

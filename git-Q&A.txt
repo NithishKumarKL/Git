@@ -1,0 +1,39 @@
+1. What is the benefit of a version control system?
+Ans: You can roll back a project to easily undo changes.
+
+2. What is cloning?
+Ans: It copies a repository’s contents into another location, such as a local development environment.
+
+3. What command creates a new repo in your current directory?
+Ans: git init .
+
+4. What command and option can you use to reword commit messages, combine, and remove commits?
+Ans: git rebase -i
+
+5. What does HEAD@{3} refer to?
+Ans: Three commits before the current commit.
+
+6. How do you view all activity in the current branch?
+
+
+7. What option can you use to stop a merge and return to your previous status?
+Ans: git merge --abort
+
+8. What command pushes your uncommitted changes onto a stack to save for later?
+Ans: git stash
+
+9. What command will send your local changes in the devs2 branch to the origin remote?
+Ans: git push origin devs2
+
+10. Which commands will create a branch?
+Ans: git checkout -b [NewBranchName]
+     git branch [NewBranchName]
+
+
+
+
+
+
+
+
+
